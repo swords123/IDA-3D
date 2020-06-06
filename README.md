@@ -53,7 +53,7 @@ python generate_results.py
 ```
 Finally, running the evalutaion by:
 ```bash
-    ./kitti_eval/evaluate_object datasets/kitti/label_2 self_exp/exp_1/kitti_test/result_xxx
+./kitti_eval/evaluate_object datasets/kitti/label_2 self_exp/exp_1/kitti_test/result_xxx
 ```
 
 ## Acknowledgments
