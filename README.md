@@ -37,13 +37,13 @@ datasets
     ├── label_3d
     └── splits
 ```
-Activating Singularity and Anaconda environment, setting corresponding parameters from `./train.sh` and simply run:
+Activating Singularity and Anaconda environment, setting corresponding parameters from `./train.sh` and simply running:
 ```bash
 ./train.sh
 ```
 
 ## Evaluation
-We provide the pretrained models for car category, you can download from [here](http://pan.dlut.edu.cn/share?id=rzk3vxsy9yg8).You can evaluate the performance using either our provided model or your trained model by setting correspondingand parameters from `./test.sh` and simply run:
+We provide the pretrained models for car category and you can download from [here](http://pan.dlut.edu.cn/share?id=rzk3vxsy9yg8). You can evaluate the performance using either our provided model or your trained model by setting correspondingand parameters from `./test.sh` and simply run:
 ```bash
 ./test.sh
 ```
