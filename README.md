@@ -37,7 +37,7 @@ datasets
     ├── label_3d
     └── splits
 ```
-Activating Singularity and Anaconda environment, setting correspondingand parameters from `./train.sh` and simply run:
+Activating Singularity and Anaconda environment, setting corresponding parameters from `./train.sh` and simply run:
 ```bash
 ./train.sh
 ```
