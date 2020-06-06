@@ -6,7 +6,7 @@ import math
 
 pred_path = '/home/pwl/Work/IDA-3D/IDA-3D/self_exp/exp_1/inference/kitti_test/'
 data_path = '/home/pwl/Work/IDA-3D/IDA-3D/datasets/kitti/'
-checkpoint_item = '62500'
+checkpoint_item = '80000'
 
 def get_index_from_txt(data_path):
     txt_path = os.path.join(data_path,'splits','test.txt')
