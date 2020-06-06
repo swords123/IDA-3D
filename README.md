@@ -26,7 +26,7 @@ python setup.py build develop
 ```
 
 ## Training
-We provide experiments on KITTI-3D benchmark. You can directly download our [processed dataset](http://pan.dlut.edu.cn/share?id=rw5cwssy9mi2) and place it in to `IDA-3D/datasets/`. The data folder should be in the following format:
+We provide experiments on KITTI-3D benchmark. You can directly download our [processed dataset](http://pan.dlut.edu.cn/share?id=rw5cwssy9mi2) and place it into `IDA-3D/datasets/`. The data folder should be in the following format:
 ```bash
 datasets
 └── kitti
