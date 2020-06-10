@@ -1,4 +1,5 @@
 # IDA-3D: Instance-Depth-Aware 3D Object Detection from Stereo Vision for Autonomous Driving (CVPR2020)
+This repository is the code for our CVPR2020 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Peng_IDA-3D_Instance-Depth-Aware_3D_Object_Detection_From_Stereo_Vision_for_Autonomous_CVPR_2020_paper.pdf)
 
 ![architecture](figures/finger1.png)
 
@@ -59,6 +60,18 @@ Finally, running the evalutaion by:
 
 ## Acknowledgments
 This repo is built based on the [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
+
+## Citation
+If you find this work useful for your research, please consider citing our paper:
+```
+@InProceedings{Peng_2020_CVPR,
+    author = {Peng, Wanli and Pan, Hao and Liu, He and Sun, Yi},
+    title = {IDA-3D: Instance-Depth-Aware 3D Object Detection From Stereo Vision for Autonomous Driving},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2020}
+} 
+```
 
 ## License
 Our code is released under [MIT license](LICENSE).
