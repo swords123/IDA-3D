@@ -6,7 +6,7 @@ This repository is the code for our CVPR2020 [paper](http://openaccess.thecvf.co
 ## Installation
 This implementation is based on the [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), and you can check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/INSTALL.md) for installation instructions.
 
-We tested this code under python 3.7, PyTorch 1.1.0, CUDA 10.0 on Ubuntu 18.04. We also provide the off-the-shelf running environment based on [Singularity](https://sylabs.io/docs/) and [Anaconda](https://www.anaconda.com/). You can download directly from [here](http://pan.dlut.edu.cn/share?id=rzcyznsyacaz) and [here](http://pan.dlut.edu.cn/share?id=rweur3sy9rpw) and run the following commands.
+We tested this code under python 3.7, PyTorch 1.1.0, CUDA 10.0 on Ubuntu 18.04. We also provide the off-the-shelf running environment based on [Singularity](https://sylabs.io/docs/) and [Anaconda](https://www.anaconda.com/). You can download directly from [here](https://drive.google.com/file/d/1IOxfM49QDVAYO-rDrbDryWR9nMDN2U0h/view?usp=sharing) and [here](https://drive.google.com/file/d/1fN1yaC71IF-ShI8Snaho5DvOeys9qX5k/view?usp=sharing) and run the following commands.
 ```bash
 unzip env_IDA3D.zip -d ~/anaconda3/envs/
 
@@ -18,7 +18,7 @@ source ~/annconda3/bin/activate tdrcnn
 git clone https://github.com/NVIDIA/apex.git
 cd apex
 python setup.py install --cuda_ext --cpp_ext
-# Note:The latest version of apex may not be compatible with our environment and you can download the old version from http://pan.dlut.edu.cn/share?id=rz5pdesya4i6
+# Note:The latest version of apex may not be compatible with our environment and you can download the old version from https://drive.google.com/file/d/1P-ym84EOlAqDS1tb1a0SseIM5ljpxzyC/view?usp=sharing
 
 # Installing PyTorch Detection
 git clone https://github.com/swords123/IDA-3D.git
@@ -27,7 +27,7 @@ python setup.py build develop
 ```
 
 ## Training
-We provide experiments on KITTI-3D benchmark. You can directly download our [processed dataset](http://pan.dlut.edu.cn/share?id=rw5cwssy9mi2) and place it into `IDA-3D/datasets/`. The data folder should be in the following format:
+We provide experiments on KITTI-3D benchmark. You can directly download our [processed dataset](https://drive.google.com/file/d/1jir7_FOGbwTe_4fb-_6EsARsfQPv19Hh/view?usp=sharing) and place it into `IDA-3D/datasets/`. The data folder should be in the following format:
 ```bash
 datasets
 └── kitti
@@ -44,7 +44,7 @@ Activating Singularity and Anaconda environment, setting corresponding parameter
 ```
 
 ## Evaluation
-We provide the pretrained models for car category and you can download from [here](http://pan.dlut.edu.cn/share?id=rzk3vxsy9yg8). You can evaluate the performance using either our provided model or your trained model by setting correspondingand parameters from `./test.sh` and simply run:
+We provide the pretrained models for car category and you can download from [here](https://drive.google.com/file/d/1oTHue1AFXGbXX4gNGaMakpe_HBI6XJTr/view?usp=sharing). You can evaluate the performance using either our provided model or your trained model by setting correspondingand parameters from `./test.sh` and simply run:
 ```bash
 ./test.sh
 ```
