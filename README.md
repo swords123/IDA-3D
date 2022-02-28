@@ -38,6 +38,16 @@ datasets
     ├── label_3d
     └── splits
 ```
+For "image_2" and "image_3",  we flip the images in the training set and exchange the left and right image for data augmentation, you should do it as:
+```python
+    im_left_flip = cv2.flip(im_right,1)       #image_right: images in "image_3"
+    im_right_flip = cv2.flip(im_left, 1)      #image_left:    images in "image_2"
+
+    cv2.imwrite(os.path.join('image_2', index + '_flip.png'), im_left_flip)
+    cv2.imwrite(os.path.join('image_3', index + '_flip.png'), im_right_flip)
+```
+
+
 Activating Singularity and Anaconda environment, setting corresponding parameters from `./train.sh` and simply running:
 ```bash
 ./train.sh
